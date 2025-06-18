@@ -321,5 +321,5 @@ function animateSun2D() {
     ctx2.fillStyle = "blue";
     ctx2.font = "12px Arial";
     ctx2.textAlign = "center";
-    ctx2.fillText(`Azimuth: ${sunNow.azimuth.toFixed(1)}°`, xNow, marginTop + 185)
+    ctx2.fillText(`Azimuth: ${sunNow.azimuth.toFixed(1)}°`, xNow, marginTop + 15)
 }
